@@ -8,31 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
     <script>
-        document.addEventListener('keydown', function(event) {
-          if ((event.ctrlKey || event.metaKey) && (event.key === '+' || event.key === '-' || event.key === '0')) {
-            event.preventDefault();
-          }
-        });
-      
-        document.addEventListener('wheel', function(event) {
-          if (event.ctrlKey) {
-            event.preventDefault();
-          }
-        }, { passive: false });
-      
-        document.addEventListener('gesturestart', function(event) {
-          event.preventDefault();
-        });
-      
-        document.addEventListener('gesturechange', function(event) {
-          event.preventDefault();
-        });
-      
-        document.addEventListener('gestureend', function(event) {
-          event.preventDefault();
-        });
-      </script>
-      
+   
 </head>
 <body>
   <div class="nav-container">
